@@ -6,7 +6,7 @@ Self-packaged [frp](https://github.com/fatedier/frp) for use on Debian or other 
 ## Usage/用法
 
 ```sh
-echo "deb [trusted=yes] https://github.com/wcbing/frp-debs/releases/latest/download ./" |
+echo "deb [trusted=yes] https://github.com/wcbing-build/frp-debs/releases/latest/download ./" |
     sudo tee /etc/apt/sources.list.d/frp.list
 sudo apt update
 ```

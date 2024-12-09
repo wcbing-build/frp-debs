@@ -1,7 +1,7 @@
 #!/bin/sh
 
 REPO="fatedier/frp"
-LOCAL_REPO="wcbing/frp-debs"
+LOCAL_REPO="wcbing-build/frp-debs"
 
 get_github_latest_tag() {
     curl -sI "https://github.com/$1/releases/latest" | grep "releases/tag" |
