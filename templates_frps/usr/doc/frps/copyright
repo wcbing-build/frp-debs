@@ -3,11 +3,11 @@ Upstream-Name: frp
 Source: https://github.com/fatedier/frp/releases
 
 Files: *
-Copyright: 2015, fatedier <fatedier@gmail.com>
+Copyright: 2015 fatedier <fatedier@gmail.com>
 License: Apache-2.0
 
 Files: DEBIAN/*
-Copyright: 2024, wcbing <i@wcbing.top>
+Copyright: 2024 wcbing <i@wcbing.top>
 License: MIT
 
 License: Apache-2.0
