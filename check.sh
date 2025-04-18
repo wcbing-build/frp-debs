@@ -4,8 +4,8 @@ REPO="fatedier/frp"
 LOCAL_REPO="wcbing-build/frp-debs"
 
 get_github_latest_tag() {
-    curl -sI "https://github.com/$1/releases/latest" | grep "releases/tag" |
-        sed -E 's#.*/releases/tag/[vV]*([^_\r]*).*#\1#'
+    curl -sw "%{redirect_url}" "https://github.com/$1/releases/latest" |
+        sed -n 's|.*/releases/tag/[^0-9]*\([^_]*\).*|\1|p'
 }
 
 LOCAL_VERSION=$(get_github_latest_tag "$LOCAL_REPO")
