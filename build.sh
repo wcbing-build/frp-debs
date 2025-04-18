@@ -24,7 +24,7 @@ build() {
     mv frp_"$VERSION"_linux_$i/$PACKAGE "$BASE_DIR/usr/bin/$PACKAGE"
     chmod 755 "$BASE_DIR/usr/bin/$PACKAGE"
     mv frp_"$VERSION"_linux_"$i"/$PACKAGE.toml "$BASE_DIR/etc/frp/$PACKAGE.toml"
-    dpkg-deb --build --root-owner-group "$BASE_DIR"
+    dpkg-deb --build --root-owner-group -Z xz "$BASE_DIR"
 }
 
 for i in $ARCH; do
