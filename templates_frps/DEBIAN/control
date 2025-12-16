@@ -1,9 +1,0 @@
-Package: frps
-Version: version
-Architecture: arch
-Maintainer: wcbing <i@wcbing.top>
-Section: web
-Priority: optional
-Homepage: https://gofrp.org/
-Description:  A fast reverse proxy to help you expose
- a local server behind a NAT or firewall to the internet. 
