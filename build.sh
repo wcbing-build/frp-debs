@@ -27,10 +27,10 @@ build() {
     install -D "$FRP_DIR/$PACKAGE.toml" -t "$BASE_DIR/etc/frp"
 
     if [ "$PACKAGE" = "frps" ]; then
-        install -D "template/frps/frps.service" -t "$BASE_DIR/usr/lib/systemd/system"
-        install -D -m 755 "template/frps/postinst" -t "$BASE_DIR/DEBIAN"
-        install -D -m 755 "template/frps/postrm" -t "$BASE_DIR/DEBIAN"
-        install -D -m 755 "template/frps/prerm" -t "$BASE_DIR/DEBIAN"
+        install -D "templates/frps/frps.service" -t "$BASE_DIR/usr/lib/systemd/system"
+        install -D -m 755 "templates/frps/postinst" -t "$BASE_DIR/DEBIAN"
+        install -D -m 755 "templates/frps/postrm" -t "$BASE_DIR/DEBIAN"
+        install -D -m 755 "templates/frps/prerm" -t "$BASE_DIR/DEBIAN"
     fi
 
     # Package deb
