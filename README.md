@@ -1,6 +1,6 @@
-自行打包的 [frp](https://github.com/fatedier/frp)，包括 `frps` 和 `frpc`，适用于 Debian 或基于 Debian 的发行版。
+自行打包的 [frp](https://github.com/fatedier/frp)，包括 `frps` 和 `frpc`，适用于基于 Debian 的发行版。
 
-Self-packaged [frp](https://github.com/fatedier/frp), include `frps` 和 `frpc`, suitable for Debian and Debian-based distros.
+Self-packaged [frp](https://github.com/fatedier/frp), include `frps` 和 `frpc`, suitable for Debian-based distro.
 
 
 ## Usage/用法
